@@ -1,24 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Поиск материалов</title>
+    <title>Search for materials</title>
 </head>
 <body>
-    <h1>Поиск материалов</h1>
+    <h1>Search for materials</h1>
     <form action="/search/" method="GET">
-        <label for="keyword">Ключевое слово:</label>
+        <label for="keyword">Keyword:</label>
         <input type="text" id="keyword" name="keyword">
-        <label for="age_filter">Диапазон возрастов:</label>
+        <label for="age_filter">Date of creation:</label>
         <input type="text" id="age_filter" name="age_filter">
-        <label for="country_filter">Страна:</label>
+        <label for="country_filter">Country:</label>
         <input type="text" id="country_filter" name="country_filter">
-        <label for="language_filter">Язык:</label>
+        <label for="language_filter">Language:</label>
         <input type="text" id="language_filter" name="language_filter">
-        <button type="submit">Искать</button>
+        <button type="submit">Search</button>
     </form>
-    <!-- Отображение результатов поиска -->
     <div id="search_results">
-        <!-- Результаты поиска будут отображены здесь -->
     </div>
  </body>
  </html>
